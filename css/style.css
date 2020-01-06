@@ -1,0 +1,106 @@
+body {
+	background-color :#cfd8dc;
+}
+
+label {
+  color : #FFF;
+}
+
+
+[type=radio] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type=radio] + img {
+  cursor: pointer;
+}
+
+[type=radio]:checked + img {
+  outline: 2px solid #000;
+}
+
+
+[type=file] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type=file] + img {
+  cursor: pointer;
+}
+
+[type=button] { 
+  position: absolute;
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+[type=button] + img {
+  cursor: pointer;
+}
+
+#myCanvas {
+  border:1px solid #c3c3c3;
+}
+
+.icon-app {
+    height: 2%;
+    width: 6%;
+    margin-left: 1%;
+    margin-right: 5%;
+
+}
+
+.icon {
+	height: 2%;
+	width: 3%;
+    padding: 10px;
+    background-color: rgba(255,255,255,0.5);
+}
+
+.navbar {
+	background-color : #455a64;
+}
+
+.color-container 
+{
+    display: inline-block;
+    position: absolute;
+    margin-top: 47px;
+    padding-left: 1%;
+}
+
+#colorPicker 
+{
+	border-radius: 10px;
+  background-color: #FFF;
+}
+
+#outlinePicker 
+{
+  border-radius: 10px;
+}
+
+canvas 
+{
+	background-color: white;
+}
+
+.canvas 
+{
+	overflow-y: scroll;
+	height:420px;
+	padding-left: 2%;
+	margin-top: 2%;
+}
+
+select 
+{
+	display : block;
+}
